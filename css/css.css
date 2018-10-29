@@ -1,0 +1,35 @@
+body,html{height:100%;padding:0px;margin:0px;}
+
+.myReference{
+   position: fixed;
+  top:300px;
+  left:300px;
+}
+.popper {
+  background-color: rgba(255, 193, 7, 1);
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.popper[x-placement^="top"] {
+  margin-bottom: 5px;
+  
+}
+.popper[x-placement^="bottom"] {
+  margin-top: 5px;
+  .popper__arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    margin: 5px;
+  }
+  
+}
+.popper[x-placement^="right"] {
+  margin-left: 5px;
+  
+.popper[x-placement^="left"] {
+  margin-right: 5px;  
+}
